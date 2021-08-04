@@ -1,0 +1,43 @@
+{
+  "map": {
+    "hover": "Hover over the countries to see how many people have already voted. {break} Click on your country and submit your vote!",
+    "offerToJoin": "You would like to join the movement?",
+    "votingText": "Europe is currently discussing a regulation change in favor for local energy markets. Let us know by adding a vote for local energy markets to your country on the map.",
+    "votingButton": "Vote"
+  },
+  "header": {
+    "product": "Product",
+    "forYouMe": "For You & Me",
+    "forMunicipalities": "For Municipalities",
+    "aboutUs": "About us"
+  },
+  "projectsPage": {
+    "OngoingProjects": "Ongoing projects",
+    "LoremNobis": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio provident qui maxime autem reprehenderit distinctio voluptatibus nulla fuga velit commodi voluptas deserunt, nihil nobis.",
+    "OurLessonsLearned": "Our lessons learned from the Quartierstrom project",
+    "QuartierstromInTheMedia": "Quartierstrom in the media",
+    "UsersAboutOurProducts": "Users about our products",
+    "IreneBattig": "Irene Battig",
+    "Sprachwerk": "Sprachwerk"
+  },
+  "common": {
+    "lorem6": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    "lorem24": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat vel rem incidunt dicta voluptate, animi quae. Optio adipisci voluptatum perferendis quam voluptatem aliquid eius?",
+    "project": "Project {number} | Projects "
+  },
+  "footer": {
+    "logo": "LOGO",
+    "Rockethub": "Rockethub by ETH Etrepreneursclub {br} Stampfenbachstrasse 52/56 {br} 8006 Zurich, Switzerland",
+    "mailExnaton": "info@exnaton.com",
+    "copyright": "Exnaton AG - {copy} 2021 all rights reserved",
+    "ContactUs": "Contuct us",
+    "Career": "Career",
+    "Privacy": "Privacy",
+    "PrivacyPolicy": "Privacy Policy",
+    "TermsOfUse": "Terms of Use",
+    "More": "More",
+    "FollowUsOnLinkedin": "Follow us on linkedin",
+    "FollowUsOnTwitter": "Follow us on twitter",
+    "SubscribeToOurNewsletter": "Subscribe to our newsletter"
+  }
+}

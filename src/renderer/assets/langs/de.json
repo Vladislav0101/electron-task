@@ -1,0 +1,43 @@
+{
+  "map": {
+    "hover": "Bewegen Sie den Cursor über die Länder, um zu sehen, wie viele Menschen bereits gewählt haben. {break} Klicke auf dein Land und sende deine Stimme!",
+    "offerToJoin": "Möchten Sie sich der Bewegung anschließen?",
+    "votingText": "Europa diskutiert derzeit über eine Änderung der Regulierung zugunsten der lokalen Energiemärkte. Lassen Sie uns wissen, indem Sie eine Abstimmung für die lokalen Energiemärkte in Ihrem Land auf der Karte hinzufügen.",
+    "votingButton": "Abstimmen"
+  },
+  "header": {
+    "product": "Lebensmittel",
+    "forYouMe": "Für Sie und uns",
+    "forMunicipalities": "Für die Gemeinde",
+    "aboutUs": "Über uns"
+  },
+  "projectsPage": {
+    "OngoingProjects": "Laufende Projekte",
+    "LoremNobis": "Willkommen, kundenspezifische Spezifikationen. Option sehen, dass die meisten der Reize und Freuden keine Flüge Urlaub Vorteil das Vergnügen Potenzial, nichts für uns.",
+    "OurLessonsLearned": "Unsere Lehren aus dem Quartierstrom-Projekt",
+    "QuartierstromInTheMedia": "Quartal Sturm in den Medien",
+    "UsersAboutOurProducts": "Benutzer über unsere Produkte",
+    "IreneBattig": "Irene Battig",
+    "Sprachwerk": "Sprachwerk"
+  },
+  "common": {
+    "lorem6": "Darüber hinaus sind online.",
+    "lorem24": "Unser Team, ist unsere Kunden. Schauen Sie oder wirklich fallen Sprüche Vergnügen, Geist. Die Möglichkeit, das Vergnügen zu erhalten, die als die Freude an etwas erträgt?",
+    "project": "Das Projekt {number} | Vorhaben "
+  },
+  "footer": {
+    "logo": "FIRMENZEICHEN",
+    "Rockethub": "Rockethub ETH Entrepreneurs club {br} Stampfenbachstrasse 52/56 {br} 8006 Zürich, Schweiz",
+    "mailExnaton": "info@exnaton.com",
+    "copyright": "Ex-nato-nAG - {kopieren} 2021 alle Rechte vorbehalten",
+    "ContactUs": "Kontaktieren Sie uns",
+    "Career": "Karriere",
+    "Privacy": "Datenschutz",
+    "PrivacyPolicy": "Datenschutzerklärung",
+    "TermsOfUse": "Nutzungsbedingungen",
+    "More": "Mehr",
+    "FollowUsOnLinkedin": "Folgen Sie uns auf linkedin",
+    "FollowUsOnTwitter": "Folgen Sie uns auf twitter",
+    "SubscribeToOurNewsletter": "Abonnieren Sie unseren newsletter"
+  }
+}
