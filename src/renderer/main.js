@@ -1,16 +1,18 @@
-import Vue from 'vue'
-import axios from 'axios'
-import i18n from '@/plugins/i18n.js'
+import Vue from "vue";
+import axios from "axios";
+import i18n from "../renderer/plugins/i18n";
 
-import App from './App'
-import router from './router'
-import store from './store'
+import App from "./App";
+import router from "./router";
+import store from "./store/index";
 
-if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
-Vue.http = Vue.prototype.$http = axios
-Vue.config.productionTip = false
+import "./assets/styles/main.css";
 
-store.dispatch('setLocale', 'en')
+if (!process.env.IS_WEB) Vue.use(require("vue-electron"));
+Vue.http = Vue.prototype.$http = axios;
+Vue.config.productionTip = false;
+
+// store.dispatch('setLocale', 'en')
 
 /* eslint-disable no-new */
 new Vue({
@@ -18,5 +20,5 @@ new Vue({
   components: { App },
   router,
   store,
-  template: '<App/>'
-}).$mount('#app')
+  template: "<App/>",
+}).$mount("#app");

@@ -1,11 +1,11 @@
 <template>
- <div>
+ <div class="box">
   <div class="count" ref="count">{{ chosenCount }}</div>
   <svg
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   width="560"
-   height="430"
+   width="325"
+   height="250"
    viewBox="500 0 100 700"
    version="1.1"
   >
@@ -95,6 +95,11 @@ export default {
 </script>
 
 <style scoped>
+.box{
+  display: grid;
+  justify-items: center;
+}
+
 .count {
  display: none;
  width: 40px;
@@ -108,16 +113,20 @@ export default {
  color: rgb(217, 230, 138);
  border: 1px solid rgb(217, 230, 138);
 }
+
 path {
  fill: rgb(22, 24, 27);
  stroke: #57cbcc;
  transition: all .12s linear;
 }
+
 path:hover {
  cursor: pointer;
  fill: rgb(217, 230, 138) !important;
 }
+
 .hover-hint {
  text-align: center;
+ padding: 0 2rem;
 }
 </style>

@@ -1,10 +1,5 @@
 <template>
  <div>
-  <div class="switch">
-   <p @click="$emit('setLocale', 'en')" v-if="$i18n.locale !== 'en'">en</p>
-   <p @click="$emit('setLocale', 'de')" v-if="$i18n.locale !== 'de'">de</p>
-   <p @click="$emit('setLocale', 'ru')" v-if="$i18n.locale !== 'ru'">ru</p>
-  </div>
 
   <transition-group tag="div" name="map" class="map-box">
    <div v-if="chosenCountry" :key="1">
@@ -92,25 +87,5 @@ button {
 button:hover {
  cursor: pointer;
  background: #2bb3a0;
-}
-.switch {
- position: absolute;
- top: 1rem;
- left: 1rem;
- color: #fcfcfc;
- transition: all .1s linear;
-}
-.switch p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 100%;
- margin: 0;
-}
-.switch p:hover{
-  cursor: pointer;
-  background-color: #2bb3a0;
 }
 </style>

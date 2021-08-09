@@ -1,23 +1,35 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import Vue from "vue";
+import Router from "vue-router";
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'landing-page',
-      component: require('@/pages/Main.vue').default
+      path: "/",
+      name: "main",
+      component: require("../pages/Main.vue").default,
+      children: [
+        {
+          path: "",
+          name: "header",
+          components: {
+            header: require("../components/Common/Header.vue").default,
+          },
+        },
+        {
+          path: "/map",
+          name: "map",
+          components: {
+            header: require("../components/Common/Header.vue").default,
+            map: require("../components/Map/MapBox.vue").default,
+          },
+        },
+      ],
     },
     {
-      path: '/map',
-      name:'map',
-      component: require('@/components/Map/MapBox.vue').default
+      path: "*",
+      redirect: "/",
     },
-    {
-      path: '*',
-      redirect: '/'
-    }
-  ]
-})
+  ],
+});
