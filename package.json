@@ -4,7 +4,7 @@
   "author": "Vladislav0101 <by.vlad01@mail.ru>",
   "description": "An electron-vue project",
   "license": null,
-  "main": "./dist/electron/main.js",
+  "main": "./src/main/index.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
     "build:dir": "node .electron-vue/build.js && electron-builder --dir",
@@ -25,7 +25,10 @@
       "output": "build"
     },
     "files": [
-      "dist/electron/**/*"
+      "dist/electron/**/*",
+      "node_modules/",
+      "package.json",
+      "./src/main/index.js"
     ],
     "dmg": {
       "contents": [
@@ -46,10 +49,16 @@
       "icon": "build/icons/icon.icns"
     },
     "win": {
+      "target": "nsis",
       "icon": "build/icons/icon.ico"
     },
     "linux": {
       "icon": "build/icons"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": false,
+      "oneClick": false,
+      "perMachine": false
     }
   },
   "dependencies": {
@@ -80,7 +89,7 @@
     "del": "^3.0.0",
     "devtron": "^1.4.0",
     "electron": "^2.0.4",
-    "electron-builder": "^20.19.2",
+    "electron-builder": "^20.44.4",
     "electron-debug": "^1.5.0",
     "electron-devtools-installer": "^2.2.4",
     "eslint": "^4.19.1",

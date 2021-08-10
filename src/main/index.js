@@ -1,5 +1,12 @@
-import { app, BrowserWindow } from 'electron'
+// import { app, BrowserWindow } from 'electron'
+const {app, BrowserWindow} = require('electron')
 import '../renderer/store/index'
+
+// "allowElevation": true,
+// "createDesktopShortcut": false,
+// "createStartMenuShortcut": false,
+// "runAfterFinish": true,
+// "deleteAppDataOnUninstall": false,
 
 if (process.env.NODE_ENV !== 'development') {
   global.__static = require('path').join(__dirname, '/static').replace(/\\/g, '\\\\')
@@ -11,7 +18,7 @@ const winURL = process.env.NODE_ENV === 'development'
 
 
 function createWindow () {
-  const mainWindow = new BrowserWindow({
+  let mainWindow = new BrowserWindow({
     height: 563,
     useContentSize: true,
     width: 1000,
